@@ -1,15 +1,16 @@
  
 .wrapper  {
-	width: 100%
+	width: 100%;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-image: url("../images/concrete_seamless.png");
 }
 
 header {
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 	background-color: #ffffff;
 	padding: 3em 0 3em 0;
 	border-bottom: 2pt;
-	border-style: solid;
+	border-bottom: solid;
     border-color: #cccccc;
 }
 
@@ -21,9 +22,9 @@ header {
 	color: white;
 	background-color: #4aaaa5;
 	top:0;
-	left: 4em;
-    padding: 33px;
-    margin-top:11px;
+	left: 5%;
+    padding: 30px;
+    margin-top: 11px;
 }
 
 /*Navbar links*/
@@ -33,19 +34,21 @@ header {
 }
 
 .content {
-	background-image: url("../images/background.png");
-	width:100%;
-	height: 60%;
+	width: 100%;
+	height: 100%; 
 }
 
 article {
 	font-size: 12pt;
-	/* float:left; */
+	float:left;
 	background-color: #ffffff;
 	margin: 4em;
 	padding: 2em;
 	height: 100%;
 	line-height: 1.5;
+	border: solid;
+	border-width: 1px;
+	border-color: #dddddd;
 }
 
 .icon {
@@ -64,7 +67,8 @@ h1 {
 }
 
 .itsme {
-	width:15em;
+	width:250px;
+	height: 300px;
 	float: left;
 	margin:0 1em 1em 0;
 }
@@ -95,7 +99,7 @@ a {
 }
 
 .contactBody {
-	background-image: url("../images/background.png");
+	background-image: url("../images/concrete_seamless.png");
 }
 
 .clearfix::after {
@@ -105,18 +109,18 @@ a {
 }
 
 footer {
-	width:100%;
+	width:auto;
 	text-align: center;
 	background-color: #666666;
 	color: #cccccc;
 	padding: 50px 0 50px 0;
 	border-top: 5px;
-	border-style: solid;
+	border-top: solid;
     border-color: #4aaaa5;
 }
 
 textarea {
-	height: 15em;
+	height: 100px;
 	width: 100%;
 }
 
@@ -164,7 +168,7 @@ input {
 
 .captionA {
 	text-align: center;
-	position: absolute;
+	/* position: absolute; */
 	top: 250px;
 	left: 0;
 	width: 13.75em;
@@ -178,7 +182,7 @@ input {
 
 .captionB {
 	text-align: center;
-	position: absolute;
+	/* position: absolute; */
 	top: 250px;
 	/*right: 0;*/
 	width: 13.75em;
@@ -192,7 +196,7 @@ input {
 
 .captionC {
 	text-align: center;
-	position: absolute;
+	/* position: absolute; */
 	top: 250px;
 	left: 0;
 	width: 13.75em;
@@ -206,7 +210,21 @@ input {
 
 .captionD {
 	text-align: center;
-	position: absolute;
+	/* position: absolute; */
+	top: 250px;
+	/*right: 0;*/
+	width: 13.75em;
+	height: 30px;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	padding: 10px;
+	vertical-align: inherit;
+	float:right; 
+}
+
+.captionE {
+	text-align: center;
+	/* position: absolute; */
 	top: 250px;
 	/*right: 0;*/
 	width: 13.75em;
